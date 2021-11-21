@@ -121,7 +121,7 @@ void loop()
       state = 2;
       break;
     case 4: // run sort
-      n = currentIndex;
+      n = currentSlot;
       sort(n);
       state = 5;
     case 5: // done
